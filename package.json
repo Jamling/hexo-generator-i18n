@@ -1,0 +1,34 @@
+{
+  "name": "hexo-generator-i18n",
+  "version": "0.0.1",
+  "description": "Multi-language pages generator for Hexo.",
+  "main": "index",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamling/hexo-generator-i18n.git"
+  },
+  "homepage": "http://ieclipse.cn/",
+  "keywords": [
+    "hexo",
+    "generator",
+    "i18n"
+  ],
+  "author": {
+    "name": "Jamling",
+    "email": "li.jamling@gmail.com",
+    "url": "http://ieclipse.cn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "readme": "ERROR: No README data found!"
+}
