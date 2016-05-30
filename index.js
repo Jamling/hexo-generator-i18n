@@ -1,9 +1,27 @@
 'use strict';
 
+var _ = require('lodash');
+
+//------------> Init langs
+  if (!hexo.config.i18n.languages){
+    var languages = hexo.config.language;
+    if(!Array.isArray(languages)){
+      languages = [languages];
+    }
+    _.pull(languages, 'default');
+    hexo.config.i18n.languages = languages;
+  }
+
+//------------> Helper
+var helper = require('./lib/helpers');
+
+hexo.extend.helper.register('get_langs', helper.langs);
+hexo.extend.helper.register('default_lang', helper.defaultLang);
+hexo.extend.helper.register('switch_lang', helper.switchLang);
+hexo.extend.helper.register('url_for_lang', helper.url);
+
+//------------> Generator
 var i18n = require('./lib/i18n');
-
-hexo.extend.helper.register('url_for_lang', i18n.url);
-
 var type = hexo.config.i18n.type;
 if (type){
   if(!Array.isArray(type)){
