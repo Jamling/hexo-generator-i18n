@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-i18n",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Multi-language pages generator for Hexo.",
   "main": "index",
   "directories": {
@@ -29,6 +29,5 @@
   },
   "dependencies": {
     "lodash": "^4.6.1"
-  },
-  "readme": "ERROR: No README data found!"
+  }
 }
