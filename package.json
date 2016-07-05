@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-i18n",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Multi-language pages generator for Hexo.",
   "main": "index",
   "directories": {
@@ -25,8 +25,7 @@
     "url": "http://ieclipse.cn"
   },
   "license": "MIT",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "lodash": "^4.6.1"
   }
