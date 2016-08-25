@@ -3,6 +3,13 @@
 var _ = require('lodash');
 
 //------------> Init langs
+  if (!hexo.config.i18n) {
+    hexo.log.info('i18n not config in _config.yml, use default config!\nPlease visit https://github.com/Jamling/hexo-generator-i18n for more information');
+    hexo.config.i18n = {
+      type: ["page", "post"],
+      generator: ["index", "archive", "category", "tag"]
+    }
+  }
   if (!hexo.config.i18n.languages){
     var languages = hexo.config.language;
     if(!Array.isArray(languages)){
