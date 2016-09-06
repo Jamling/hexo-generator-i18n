@@ -11,5 +11,5 @@ before_install:
   - npm install lodash --save
 
 script:
-  - npm run ci
+  - npm test
   
