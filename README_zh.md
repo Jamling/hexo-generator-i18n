@@ -8,9 +8,13 @@
 $ npm install hexo-generator-i18n --save
 ```
 
-## 选项
+## 设置
 
+<var>_config.yml</var>
 ``` yaml
+# 需修改Hexo默认的空值为确切的语言列表
+language: [zh,en]
+# hexo-generator-i18n 选项（可选，默认使用如下设置）
 i18n:
   type: [page, post]
   generator: [index, archive, category, tag]

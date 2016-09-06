@@ -1,5 +1,7 @@
 # hexo-generator-i18n
 
+[![Build Status](https://travis-ci.org/Jamling/hexo-generator-i18n.svg?branch=master)](https://travis-ci.org/Jamling/hexo-generator-i18n)
+
 Multi-languages pages generator for [Hexo].
 
 ## Installation
@@ -8,9 +10,13 @@ Multi-languages pages generator for [Hexo].
 $ npm install hexo-generator-i18n --save
 ```
 
-## Options
+## Config
 
+<var>_config.yml</var>
 ``` yaml
+# hexo default is empty, change to exact languages
+language: [zh,en]
+# config hexo-generator-i18n option (optional, this is default option)
 i18n:
   type: [page, post]
   generator: [index, archive, category, tag]
@@ -24,7 +30,13 @@ i18n:
  - archive: Generate i18n archive page
  - category: Generate i18n category page
  - tag: Generate i18n tag page
-
+ 
+<var>source/_data/languages.yml</var>
+```yaml
+zh: 简体中文
+en: English
+```
+ 
 ## Order
 
 Make sure this plugin after other generators in <var>dependencies</var> of <var>package.json</var>
