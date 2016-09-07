@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-i18n",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Multi-language pages generator for Hexo.",
   "main": "index",
   "directories": {
