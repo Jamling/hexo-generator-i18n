@@ -12,7 +12,7 @@ $ npm install hexo-generator-i18n --save
 
 <var>_config.yml</var>
 ``` yaml
-# 需修改Hexo默认的空值为确切的语言列表
+# 需修改Hexo默认的空值为确切的语言列表，记得在主题languages目录下添加对应的语言.yml文件
 language: [zh,en]
 # hexo-generator-i18n 选项（可选，默认使用如下设置）
 i18n:
@@ -28,6 +28,14 @@ i18n:
  - archive: 生成国际化归档页
  - category: 生成国际化分类页
  - tag: 生成国际化标签页
+
+*** 在主题languages目录下添加对应的语言.yml文件(如zh.yml, en.yml) ***
+ 
+在<var>source/_data/languages.yml</var>中设置语言的显示名称(Optional)
+```yaml
+zh: 简体中文
+en: English
+```
 
 ## 顺序
 

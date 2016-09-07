@@ -14,7 +14,7 @@ $ npm install hexo-generator-i18n --save
 
 <var>_config.yml</var>
 ``` yaml
-# hexo default is empty, change to exact languages
+# hexo default is empty, change to exact languages, and add xx.yml under your theme languages dir.
 language: [zh,en]
 # config hexo-generator-i18n option (optional, this is default option)
 i18n:
@@ -30,8 +30,10 @@ i18n:
  - archive: Generate i18n archive page
  - category: Generate i18n category page
  - tag: Generate i18n tag page
+
+*** And add xx.yml (such as zh.yml, en.yml) under your themes languages directory ***
  
-<var>source/_data/languages.yml</var>
+Set language display name in <var>source/_data/languages.yml</var> (Optional)
 ```yaml
 zh: 简体中文
 en: English
