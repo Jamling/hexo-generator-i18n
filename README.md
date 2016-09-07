@@ -1,6 +1,10 @@
 # hexo-generator-i18n
 
 [![Build Status](https://travis-ci.org/Jamling/hexo-generator-i18n.svg?branch=master)](https://travis-ci.org/Jamling/hexo-generator-i18n)
+[![node](https://img.shields.io/node/v/hexo-generator-i18n.svg)](https://www.npmjs.com/package/hexo-generator-i18n)
+[![npm downloads](https://img.shields.io/npm/dt/hexo-generator-i18n.svg)](https://www.npmjs.com/package/hexo-generator-i18n)
+[![npm version](https://img.shields.io/npm/v/hexo-generator-i18n.svg)](https://www.npmjs.com/package/hexo-generator-i18n)
+[![GitHub release](https://img.shields.io/github/release/jamling/hexo-generator-i18n.svg)](https://github.com/Jamling/hexo-generator-i18n/releases/latest)
 
 Multi-languages pages generator for [Hexo].
 
@@ -31,7 +35,7 @@ i18n:
  - category: Generate i18n category page
  - tag: Generate i18n tag page
 
-*** And add xx.yml (such as zh.yml, en.yml) under your themes languages directory ***
+***And add xx.yml (such as zh.yml, en.yml) under your themes languages directory***
  
 Set language display name in <var>source/_data/languages.yml</var> (Optional)
 ```yaml

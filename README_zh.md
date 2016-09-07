@@ -1,5 +1,11 @@
 # 简介
 
+[![Build Status](https://travis-ci.org/Jamling/hexo-generator-i18n.svg?branch=master)](https://travis-ci.org/Jamling/hexo-generator-i18n)
+[![node](https://img.shields.io/node/v/hexo-generator-i18n.svg)](https://www.npmjs.com/package/hexo-generator-i18n)
+[![npm downloads](https://img.shields.io/npm/dt/hexo-generator-i18n.svg)](https://www.npmjs.com/package/hexo-generator-i18n)
+[![npm version](https://img.shields.io/npm/v/hexo-generator-i18n.svg)](https://www.npmjs.com/package/hexo-generator-i18n)
+[![GitHub release](https://img.shields.io/github/release/jamling/hexo-generator-i18n.svg)](https://github.com/Jamling/hexo-generator-i18n/releases/latest)
+
 [Hexo]国际化站点生成插件.
 
 ## 安装
@@ -29,7 +35,7 @@ i18n:
  - category: 生成国际化分类页
  - tag: 生成国际化标签页
 
-*** 在主题languages目录下添加对应的语言.yml文件(如zh.yml, en.yml) ***
+***在主题languages目录下添加对应的语言.yml文件(如zh.yml, en.yml)***
  
 在<var>source/_data/languages.yml</var>中设置语言的显示名称(Optional)
 ```yaml
