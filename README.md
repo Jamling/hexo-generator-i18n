@@ -6,7 +6,7 @@
 [![npm version](https://img.shields.io/npm/v/hexo-generator-i18n.svg)](https://www.npmjs.com/package/hexo-generator-i18n)
 [![GitHub release](https://img.shields.io/github/release/jamling/hexo-generator-i18n.svg)](https://github.com/Jamling/hexo-generator-i18n/releases/latest)
 
-Multi-languages pages generator for [Hexo].
+Multi-languages pages generator for [Hexo]. Here is a [demo](https://www.ieclipse.cn/other/)
 
 ## Installation
 
