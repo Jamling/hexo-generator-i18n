@@ -23,17 +23,17 @@ language: [zh,en]
 # hexo-generator-i18n 选项（可选，默认使用如下设置）
 i18n:
   type: [page, post]
-  generator: [index, archive, category, tag]
+  generator: [archive, category, tag, index]
 ```
 
 - **type**: 想要生成国际化页面类型
  - page: <var>source</var>目录下的所有page页面
  - post: <var>source</var>/<var>_post</var>目录下所有的post页面
 - **generator**: 设置需要国际化的其它生成器。
- - index: 生成国际化首页
  - archive: 生成国际化归档页
  - category: 生成国际化分类页
  - tag: 生成国际化标签页
+ - index: 生成国际化首页
 
 ***在主题languages目录下添加对应的语言.yml文件(如zh.yml, en.yml)***
  

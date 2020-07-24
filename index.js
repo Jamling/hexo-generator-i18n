@@ -7,7 +7,7 @@ var _ = require('lodash');
     hexo.log.info('i18n not config in _config.yml, use default config!\nPlease visit https://github.com/Jamling/hexo-generator-i18n for more information');
     hexo.config.i18n = {
       type: ["page", "post"],
-      generator: ["index", "archive", "category", "tag"]
+      generator: ["archive", "category", "tag", "index"]
     }
   }
   if (!hexo.config.i18n.languages){

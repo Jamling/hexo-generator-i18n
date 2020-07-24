@@ -23,17 +23,17 @@ language: [zh,en]
 # config hexo-generator-i18n option (optional, this is default option)
 i18n:
   type: [page, post]
-  generator: [index, archive, category, tag]
+  generator: [archive, category, tag, index]
 ```
 
 - **type**: What type of model to be i18n generated
  - page: All page model under <var>source</var>
  - post: All post model under <var>source</var>/<var>_post</var>
 - **generator**: Which generator to be i18n generated, it's array of your installed generator names.
- - index: Generate i18n index page
  - archive: Generate i18n archive page
  - category: Generate i18n category page
  - tag: Generate i18n tag page
+ - index: Generate i18n index page
 
 ***And add xx.yml (such as zh.yml, en.yml) under your themes languages directory***
  
